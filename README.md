@@ -31,7 +31,9 @@ dev/
 ## Commands
 
 `dev` - start up dev server and watch for changes
+
 `dist` - build and minify
+
 `deploy` - deploy to s3
 
 
