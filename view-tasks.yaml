@@ -1,0 +1,11 @@
+aliases:
+  - 'copy:view'
+watch:
+  files:
+    - '<%= dev %>/index.html'
+  tasks:
+    - 'view'
+copy:
+  src: '<%= dev %>/index.html'
+  dest: '<%= dist %>/index.html'
+

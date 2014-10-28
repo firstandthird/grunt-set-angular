@@ -1,0 +1,15 @@
+aliases:
+  - 'ngtemplates'
+ngtemplates:
+  cwd: '<%= dev %>/modules/'
+  src: '**/*.html'
+  dest: '<%= dist %>templates.js'
+  options:
+    prefix: '<%= dev %>/modules/'
+    standalone: true
+watch:
+  files:
+    - '<%= dev %>/modules/**/*.html'
+  tasks:
+    - 'template'
+    - 'scripts'

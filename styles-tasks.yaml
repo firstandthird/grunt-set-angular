@@ -1,0 +1,12 @@
+aliases:
+  - 'less'
+less:
+  files:
+    '<%= dist %>/styles.css':
+      - 'bower_components/ionic/release/css/ionic.css'
+      - '<%= dev %>/global/**/*.less'
+watch:
+  files:
+    - '<%= dev %>/**/*.less'
+  tasks:
+    - 'styles'

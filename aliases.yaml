@@ -1,0 +1,12 @@
+default:
+  - 'bower'
+  - 'template'
+  - 'scripts'
+  - 'icons'
+  - 'styles'
+  - 'view'
+  - 'bytesize'
+dist:
+  - 'default'
+  - 'uglify:scripts'
+  - 'less:styles_prod'

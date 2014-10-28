@@ -1,0 +1,11 @@
+aliases:
+  - 'default'
+  - 'connect'
+  - 'watch'
+
+connect:
+  options:
+    hostname: '*'
+    livereload: true
+    port: 8000
+    base: '<%= dist %>'

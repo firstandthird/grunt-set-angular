@@ -1,0 +1,7 @@
+aliases:
+  - 'copy:icons'
+copy:
+  expand: true
+  cwd: 'bower_components/ionic/release/'
+  src: 'fonts/*'
+  dest: '<%= dist %>'

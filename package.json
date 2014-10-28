@@ -1,0 +1,31 @@
+{
+  "name": "grunt-set-ionic",
+  "description": "grunt-set for ionic development",
+  "homepage": "https://github.com/firstandthird/grunt-set-ionic",
+  "author": "First+Third",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstandthird/grunt-set-ionic.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-set": "0.0.1",
+    "grunt-angular-templates": "^0.5.7",
+    "grunt-angular-yaml": "0.0.1",
+    "grunt-aws-s3": "^0.9.4",
+    "grunt-bytesize": "~0.1.1",
+    "grunt-concat-bower": "^0.3.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ngmin": "0.0.3",
+    "grunt-shell": "^1.1.1"
+  }
+}

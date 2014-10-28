@@ -1,0 +1,21 @@
+aliases:
+  - 'default'
+  - 'shell:deploy'
+  - 'aws_s3'
+shell:
+  command: 'touch <%= dist %>/cordova.js'
+aws_s3:
+  options:
+    accessKeyId: '<%= aws.accessKeyID %>'
+    secretAccessKey: '<%= aws.secretAccessKey %>'
+    bucket: '<%= aws.bucket %>'
+    debug: false
+    differential: true
+  files:
+    -
+      expand: true
+      cwd: '<%= dist %>'
+      src:
+        - '**/*'
+      dest: ''
+

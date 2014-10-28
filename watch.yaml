@@ -1,0 +1,16 @@
+options:
+  livereload: true
+grunt:
+  options:
+    reload: true
+  files:
+    - 'Gruntfile.js'
+    - 'grunt/*'
+  tasks:
+    - 'default'
+bower:
+  files:
+    - 'bower_components/**/*.js'
+  tasks:
+    - 'bower'
+    - 'scripts'

@@ -1,0 +1,41 @@
+aliases:
+  - 'jshint'
+  - 'ngmin'
+  - 'angular-yaml'
+  - 'concat:scripts'
+jshint:
+  - '<%= dev %>/**/*.js'
+clean:
+  - '<%= dist %>/app.js'
+  - '<%= dist %>/bower.js'
+  - '<%= dist %>/templates.js'
+ngmin:
+  src:
+    - '<%= dist %>/templates.js'
+    - '<%= dev %>/ui/app.js'
+    - '<%= dev %>/ui/**/*.js'
+  dest: '<%= dist %>/app.js'
+angular-yaml:
+  src:
+    - '<%= dev %>/data/**/*.yaml'
+    - '<%= dev %>/translations/**/*.yaml'
+  dest: '<%= dist %>/constants.js'
+concat:
+  src:
+    - 'bower_components/jquery/dist/jquery.js'
+    - '<%= dist %>/bower.js'
+    - '<%= dist %>/constants.js'
+    - '<%= dist %>/app.js'
+  dest: '<%= dist %>/scripts.js'
+bower:
+  dest: '<%= dist %>/bower.js'
+  exclude:
+    - 'jquery'
+watch:
+  files:
+    - 'ui/**/*.js'
+  tasks:
+    - 'scripts'
+uglify:
+  files:
+    '<%= dist %>/scripts.js': '<%= dist %>/scripts.js'
