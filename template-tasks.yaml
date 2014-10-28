@@ -3,7 +3,7 @@ aliases:
 ngtemplates:
   cwd: '<%= dev %>/modules/'
   src: '**/*.html'
-  dest: '<%= dist %>templates.js'
+  dest: '<%= dist %>/templates.js'
   options:
     prefix: '<%= dev %>/modules/'
     standalone: true

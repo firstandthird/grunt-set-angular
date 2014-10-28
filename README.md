@@ -17,8 +17,8 @@ dev/
 
 ```javascript
 {
-  dev: 'dev/'
-  dist: 'www/',
+  dev: 'dev'
+  dist: 'www',
   //only needed if deploying to s3
   aws: {
     accessKeyID: '',
