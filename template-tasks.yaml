@@ -5,7 +5,6 @@ ngtemplates:
   src: '**/*.html'
   dest: '<%= dist %>/templates.js'
   options:
-    prefix: '<%= dev %>/modules/'
     standalone: true
 watch:
   files:
