@@ -22,15 +22,17 @@ angular-yaml:
   dest: '<%= dist %>/constants.js'
 concat:
   src:
-    - 'bower_components/jquery/dist/jquery.js'
     - '<%= dist %>/bower.js'
     - '<%= dist %>/constants.js'
     - '<%= dist %>/app.js'
   dest: '<%= dist %>/scripts.js'
 bower:
   dest: '<%= dist %>/bower.js'
-  exclude:
-    - 'jquery'
+  additionalDeps:
+    angular:
+      - 'jquery'
+    'angular-translate':
+      - 'angular'
 watch:
   files:
     - 'ui/**/*.js'
