@@ -12,8 +12,8 @@ clean:
 ngmin:
   src:
     - '<%= dist %>/templates.js'
-    - '<%= dev %>/ui/app.js'
-    - '<%= dev %>/ui/**/*.js'
+    - '<%= dev %>/app.js'
+    - '<%= dev %>/**/*.js'
   dest: '<%= dist %>/app.js'
 angular-yaml:
   src:
