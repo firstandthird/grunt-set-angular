@@ -4,7 +4,7 @@ less:
   files:
     '<%= dist %>/styles.css':
       - 'bower_components/ionic/release/css/ionic.css'
-      - '<%= dev %>/global/**/*.less'
+      - '<%= dev %>/**/*.less'
 watch:
   files:
     - '<%= dev %>/**/*.less'

@@ -35,7 +35,7 @@ bower:
       - 'angular'
 watch:
   files:
-    - 'ui/**/*.js'
+    - '<%= dev %>/**/*.js'
   tasks:
     - 'scripts'
 uglify:
