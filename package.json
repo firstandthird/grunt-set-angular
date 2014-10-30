@@ -4,6 +4,12 @@
   "homepage": "https://github.com/firstandthird/grunt-set-ionic",
   "author": "First+Third",
   "version": "0.0.2",
+  "keywords": [
+    "grunt",
+    "grunt-set",
+    "ionic",
+    "gruntcollection"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/firstandthird/grunt-set-ionic.git"
