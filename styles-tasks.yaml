@@ -1,9 +1,12 @@
 aliases:
   - 'less'
+bower:
+  dest: '<%= dist %>/bower.css'
+  type: '.css'
 less:
   files:
     '<%= dist %>/styles.css':
-      - 'bower_components/ionic/release/css/ionic.css'
+      - '<%= dist %>/bower.css'
       - '<%= dev %>/**/*.less'
 watch:
   files:
