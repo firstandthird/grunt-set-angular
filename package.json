@@ -1,18 +1,18 @@
 {
-  "name": "grunt-set-ionic",
-  "description": "grunt-set for ionic development",
-  "homepage": "https://github.com/firstandthird/grunt-set-ionic",
+  "name": "grunt-set-angular",
+  "description": "grunt-set for angular development",
+  "homepage": "https://github.com/firstandthird/grunt-set-angular",
   "author": "First+Third",
   "version": "0.0.6",
   "keywords": [
     "grunt",
     "grunt-set",
-    "ionic",
+    "angular",
     "gruntcollection"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/firstandthird/grunt-set-ionic.git"
+    "url": "https://github.com/firstandthird/grunt-set-angular.git"
   },
   "license": "MIT",
   "peerDependencies": {

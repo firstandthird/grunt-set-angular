@@ -1,10 +1,9 @@
-# grunt-set-ionic
+# grunt-set-angular
 
-A set of grunt tasks to help with ionic development.
+A set of grunt tasks to help with angular development.
 
 ## Features
 
-* automatically include ionic and all dependencies
 * jshint js files
 * run ngmin on js files
 * automatically add bower dependencies
