@@ -40,6 +40,7 @@ dev/
   fonts/
     app.ttf
   app.js
+  index.html
 ```
 
 ## Options
