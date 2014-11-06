@@ -1,4 +1,12 @@
 
+0.0.7 / 2014-11-06 
+==================
+
+  * a bunch of tweaks
+  * Update README.md
+  * auto include bower css deps
+  * renamed to grunt-set-angular
+
 0.0.6 / 2014-10-30 
 ==================
 

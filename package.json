@@ -3,7 +3,7 @@
   "description": "grunt-set for angular development",
   "homepage": "https://github.com/firstandthird/grunt-set-angular",
   "author": "First+Third",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "keywords": [
     "grunt",
     "grunt-set",
