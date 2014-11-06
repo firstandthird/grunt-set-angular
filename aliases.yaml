@@ -2,9 +2,9 @@ default:
   - 'bower'
   - 'template'
   - 'scripts'
-  - 'icons'
   - 'styles'
   - 'view'
+  - 'assets'
   - 'bytesize'
 dist:
   - 'default'

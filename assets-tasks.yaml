@@ -1,0 +1,11 @@
+aliases:
+  - 'copy:assets_images'
+copy__images:
+  files:
+    -
+      expand: true
+      src:
+        - '**/*.png'
+        - '**/*.jpg'
+      cwd: '<%= dev %>/'
+      dest: '<%= dist %>/'

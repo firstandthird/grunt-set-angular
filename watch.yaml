@@ -5,6 +5,8 @@ grunt:
     reload: true
   files:
     - 'Gruntfile.js'
+    - 'bower.json'
+    - 'package.json'
     - 'grunt/*'
   tasks:
     - 'default'

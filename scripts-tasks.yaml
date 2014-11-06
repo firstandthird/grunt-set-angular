@@ -28,11 +28,7 @@ concat:
   dest: '<%= dist %>/scripts.js'
 bower:
   dest: '<%= dist %>/bower.js'
-  additionalDeps:
-    angular:
-      - 'jquery'
-    'angular-translate':
-      - 'angular'
+  additionalDeps: <%= bowerDeps %>
 watch:
   files:
     - '<%= dev %>/**/*.js'

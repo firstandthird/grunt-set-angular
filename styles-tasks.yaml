@@ -9,7 +9,12 @@ less:
       - '<%= dist %>/bower.css'
       - '<%= dev %>/**/*.less'
 watch:
+  options:
+    livereload: false
   files:
     - '<%= dev %>/**/*.less'
   tasks:
     - 'styles'
+watch__css:
+  files:
+    - '<%= dist %>/**/*.css'
