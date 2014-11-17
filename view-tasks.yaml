@@ -5,6 +5,8 @@ watch:
     - '<%= dev %>/index.html'
   tasks:
     - 'view'
+inline:
+  src: '<%= dist %>/index.html'
 copy:
   src: '<%= dev %>/index.html'
   dest: '<%= dist %>/index.html'

@@ -9,4 +9,5 @@ default:
 dist:
   - 'default'
   - 'uglify:scripts'
-  - 'less:styles_prod'
+  - 'cssmin:styles'
+  - 'inline:view'

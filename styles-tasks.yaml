@@ -18,3 +18,7 @@ watch:
 watch__css:
   files:
     - '<%= dist %>/**/*.css'
+cssmin:
+  files:
+    '<%= dist %>/styles.css': '<%= dist %>/styles.css'
+
