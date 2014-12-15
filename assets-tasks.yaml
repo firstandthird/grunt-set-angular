@@ -5,6 +5,10 @@ copy__images:
     -
       expand: true
       src:
+        - '**/*.svg'
+        - '**/*.ttf'
+        - '**/*.woff'
+        - '**/*.eot'
         - '**/*.png'
         - '**/*.jpg'
       cwd: '<%= dev %>/'
