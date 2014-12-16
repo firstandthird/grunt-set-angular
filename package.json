@@ -6,6 +6,7 @@
   "version": "0.0.9",
   "keywords": [
     "grunt",
+    "gruntplugin",
     "grunt-set",
     "angular",
     "gruntcollection"
