@@ -1,6 +1,6 @@
 aliases:
   - 'jshint'
-  - 'ngmin'
+  - 'ngAnnotate'
   - 'angular-yaml'
   - 'concat:scripts'
 jshint:
@@ -9,12 +9,14 @@ clean:
   - '<%= dist %>/app.js'
   - '<%= dist %>/bower.js'
   - '<%= dist %>/templates.js'
-ngmin:
-  src:
-    - '<%= dist %>/templates.js'
-    - '<%= dev %>/app.js'
-    - '<%= dev %>/**/*.js'
-  dest: '<%= dist %>/app.js'
+ngAnnotate:
+  options:
+    singleQuotes: true
+  files:
+    - '<%= dist %>/app.js':
+      - '<%= dist %>/templates.js'
+      - '<%= dev %>/app.js'
+      - '<%= dev %>/**/*.js'
 angular-yaml:
   src:
     - '<%= dev %>/data/**/*.yaml'
