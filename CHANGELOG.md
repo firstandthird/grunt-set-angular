@@ -1,4 +1,10 @@
 
+0.1.0 / 2014-12-16 
+==================
+
+  * Swapping ng-min with ng-annotate
+  * Adding "gruntplugin" keyword
+
 0.0.9 / 2014-12-15 
 ==================
 
